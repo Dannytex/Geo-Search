@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geo-Search</title>
+
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+        <!--Preloader-->
+            <div class="preloader-wrapper">
+                 <div class="preloader"> </div>
+            </div>
+
+     <!--body-->
+                <div class="display">
+                        <!-- Navbar-->
+                            <div class="nav">
+
+                                <!-- Search bar-->
+                                    <div class="input-div">
+                                        <input class="input" type="search" id="city" name="Search" placeholder="Search Location">
+                                    </div>	
+
+                                    <div id="Gps-icon">
+                                        <i class="fas fa-crosshairs"></i>
+                                    </div>
+
+                                <!-- converter-->
+                                    <div id="converter">
+                                        <a href=""><i class="fa fa-calculator"></i></a>
+                                    </div>		
+
+                            </div>
+
+                                <!-- Sidebar features-->
+                                    <nav class="features">
+                                            <ul>
+                                                <li><a href="#">Location <i class="fas fa-map-marked-alt"></i></a></li>
+                                                <li><a href="#">Weather <i class="fa fa-cloud"></i></a></li>
+                                                <li><a href="#">Wind Speed <i class=" fa fa-wind"></i></a></li>
+                                                <li><a  id="h-btn">Humidity <i class=" fa fa-cloud-rain"></i></a></li>
+                                                <li><a href="#">Temperature <i class=" fas fa-temperature-high"></i></a></li>
+                                                <li><a href="#">Postal code<i class="fas fa-address-card"></i></a></li>
+                                            </ul>
+                                    </nav>
+                                    <script src="js/feature.js"></script>
+                                
+                        <!--Display screen-->
+                        <div class="display-screen">
+                                          <div class="weather-desc-display"> 
+                                              
+                                          </div>          
+                        </div>
+                        
+
+                                            <!--Footer-->
+                        <div class="footer">
+                            <p>&copy All right Reversed.<a  href="" target="_blank">@Shield_String</a></p>				
+                        </div>
+                </div>     
+   
+</body>
+</html>
